@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
-import * as Cesium from './cesiumSource'
+import * as Cesium from '@/cesiumSource'
 import './cesiumSource/packages/widgets/Source/widgets.css'
 (window as any).CESIUM_BASE_URL = '/cesiumAssets'
 
